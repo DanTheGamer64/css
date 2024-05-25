@@ -1,0 +1,20 @@
+.divCSS{
+    width:70px;
+    height:47px;
+    background-color:#92B901;
+    color:white;
+    font-weight: bold;
+    position: relative;
+    font-size:20px;
+    border-radius:5px;
+    padding-left:5px;
+    animation-name: example;
+    animation-duration: 4s;
+    transition:transform;
+}
+@keyframes example {
+  0%   {background-color:#92B901; left:0px;}
+  50%  {background-color:teal; left:800px; transform: rotate(30deg);}
+  80%  {background-color:lightblue; left:0px; transform: rotate(-360deg);}
+  100% {background-color:#92B901; left:0px; transform: rotate(-360deg);}
+}
